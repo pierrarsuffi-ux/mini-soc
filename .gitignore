@@ -1,0 +1,19 @@
+# --- Environnement virtuel Python ---
+.venv/
+
+# --- Fichiers générés automatiquement par Python ---
+__pycache__/
+*.pyc
+
+# --- Secrets (clés API, mots de passe) ---
+.env
+
+# --- Données et modèles (générés par nos scripts) ---
+data/
+models/
+
+# --- Fichiers propres aux éditeurs et au système ---
+.vscode/
+.ipynb_checkpoints/
+Thumbs.db
+.DS_Store
