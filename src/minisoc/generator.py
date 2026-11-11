@@ -36,6 +36,6 @@ def main():
     with OUTPUT_FILE.open("w", encoding = "utf-8") as file :
      for event in events :
       file.write(json.dumps(event) + "\n")
-    print(f"{len(event)} événements écrits dans {OUTPUT_FILE}")
+    print(f"{len(events)} événements écrits dans {OUTPUT_FILE}")
 if __name__ == "__main__" :
    main()
